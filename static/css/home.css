@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    width: 5px; 
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #1c232e4a;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.home button{
+    border: 0;
+    border-radius: 5px;
+    background-color: #48BABA;
+    width: 100px;
+    height: 40px;
+    width: 100px;
+    height: 40px;
+    transition: 0.3s;
+    color: white;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+
+.home button:hover{
+    background-color: #7898989d;
+    cursor: pointer;
+    color: black;
+}
+
+.backgroundCarros{
+    background-color: #1C232E;
+}
+
+.backgroundCarros img{
+   width: 100%;
+}
+
+.container-background{
+    background-color: #1C232E;
+    padding: 20px;
+    
+}
+
+
+.reservaEstacionamento{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.reservaEstacionamento img{
+    width: 200px;
+    height: 200px;
+}
+
+.legendas{
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.legendas h2{
+    width: 15%;
+    text-align: center;
+    word-wrap: nowrap;
+}
+
+.botaoBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.botaoBackground button{
+    border-radius: 5px;
+    border: #48BABA solid 1px;
+    background-color: #1C232E;
+    width: 150px;
+    height: 40px;
+    transition: 0.3s;
+    color: white;
+}
+
+.botaoBackground button:hover{
+    background-color: #48BABA;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.localizacao{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descricao{
+    padding: 4px;
+    text-align: justify;
+    background-color: white;
+    border: #1C232E 3px solid;
+    border-radius: 5px;
+    width: 700px;
+    height: 400px;
+}
+
+.requisitosTrabalho{
+    background-color: #1C232E;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ideiaTrabalho{
+    padding: 20px;
+    text-align: center;
+    background-color: #1C232E;
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    border: 1px solid #48BABA;
+    color: white;
+}
+
+.Framework{
+    padding: 10px;
+    text-align: center;
+    background-color: #1C232E;
+    width: 400px;
+    height: 280px;
+    border-radius: 5px;
+    border: 1px solid #48BABA;
+    color: white;
+}

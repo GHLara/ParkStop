@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../static/css/registro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="form-container">
+        <form method="POST" class="carro-form">
+            <h1>Carro</h1>
+            <input type="text" placeholder="Número da Placa" name="placa">
+            <input type="datetime" placeholder="Horário de entrada" name="data">
+            <button type="submit">Registrar</button>
+        </form>
+        <form method="POST" class="sensor-form">
+            <h1>Sensor</h1>
+            <input type="text" placeholder="Número da Vaga" name="vaga">
+            <input type="number" placeholder="Número do sensor" name="sensor">
+            <div class="input-sensor">
+                <input type="radio" value="ativo" name="estado-sensor">
+                <h2>Ativo</h2>
+                <input type="radio" value="desativo" name="estado-sensor">
+                <h2>Desativo</h2>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div class="dados">
+        <h1>Dados (exemplo)</h1>
+        <br>
+        <h2>Carros</h2>
+        <h2>H72B45 / 12:45 </h2>
+        <br>
+        <h2>Sensores</h2>
+        <h2>Sensor 49 / ativo</h2>  
+        <h2>Sensor 43 / ativo</h2>  
+        <h2>Sensor 21 / ativo</h2>  
+    </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #1C232E;
+}
+
+.header{
+  display: flex;
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.336);
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+.content{
+  width: 100%;
+  height: 95%;
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-auto-rows: 25px;
+  padding: 0 20px 0 20px;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+.content-head{
+  width: 100%;
+  height: 5%;
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-auto-rows: 25px;
+  padding: 0 20px 0 20px;
+  margin-top: 10px;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+
+.clientSelect{
+  font-size: 3em;
+  padding: 5px;
+}
+
+.id{
+  width: 50px;
+  margin-right: 20px;
+}
+
+.name{
+  width: 100px;
+  margin-right: 20px;
+}
+
+.email{
+  width: 200px;
+  margin-right: 20px;
+}
+
+.cidade{
+  width: 50px;
+}
+
+.data{
+  height: 100%;
+  margin-right: 20px;
+}
+
+.container{
+  height: 20px;
+  width: 100%;
+  display: flex;
+  padding-bottom: 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+.container-head{
+  width: 100%;
+  display: flex;
+  padding-bottom: 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+.container p{
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+}

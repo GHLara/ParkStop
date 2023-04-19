@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+:root {
+    --cor1: #48BABA;
+    --cor2: #1C232E;
+    --font: 'Inter', sans-serif;    
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 10px;
+    background-color: var(--cor2);
+    color: aliceblue;
+}
+
+.form-container {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.carro-form {
+    width: 80%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid var(--cor1);
+    border-radius: 10px;
+}
+
+.carro-form input, .carro-form button {
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: #48baba2d;
+    color: aliceblue;
+}
+
+.carro-form button, .sensor-form button {
+    transition: 0.5s;
+}
+
+.carro-form button:hover, .sensor-form button:hover {
+    background-color: var(--cor1);
+    color: black;
+    cursor: pointer;
+}
+
+.sensor-form {
+    width: 80%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid var(--cor1);
+    border-radius: 10px;
+}
+
+.sensor-form input, .sensor-form button {
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: #48baba2d;
+    color: aliceblue;
+}
+
+.input-sensor {
+    font-family: var(--font);
+    width: 80%;
+    font-size: 10px;
+    display: flex;
+    gap: 12px;
+    padding: 5px;
+    border: 1px solid var(--cor1);
+    font-weight: medium;
+}
+
+.input-sensor input {
+    height: 18px;
+}
+
+.dados {
+    width: 50%;
+    height: auto;
+    margin-left: 200px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid var(--cor1);
+}

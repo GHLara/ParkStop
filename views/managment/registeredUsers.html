@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/css/registeredUsers.css">
+  <title>Listagem de Usuarios</title>
+</head>
+<body>
+  <div class="header">
+    <div class="clientSelect">Clientes</div>
+  </div>
+
+  {% block content %}
+  <div class="content-head">
+    <div class="container-head">
+      <div class="id">ID</div>
+      <div class="name">Nome</div>
+      <div class="email">Email</div>
+      <div class="cidade">Cidade</div>
+    </div>
+  </div>
+    <div class="content">
+        {%for user in users%}
+        <div class="container">
+          <div class="id data">ID</div>
+          <div class="name data">
+            <p>{{user[0]}}</p>
+          </div>
+          <div class="email data">
+            <p>{{user[1]}}</p>
+          </div>
+          <div class="cidade data">Cidade</div>
+        </div>
+        {%endfor%}
+      </div>
+    </div>
+  {% endblock %}
+</body>
+</html>
